@@ -1,0 +1,44 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "epooja_store",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "epooja_store",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "epooja_store",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "system":{
+    "jwt_expire": "24h",
+    "port":1332,
+    "domain": "http://localhost:1332/",
+    "api_endpoint":"http://localhost:1332/v1/",
+    "jwt_secretkey":"globalequityesearchandrevere",   
+    "salt":8,
+    "frontend_url":"http://ec2-35-178-115-252.eu-west-2.compute.amazonaws.com/",
+    "revere_support_email" : "satya.bhxpro@gmail.com",
+    "api_code":"6209232b45aea869fb846a89d263fb3a",
+    "ES_INDEX_PREFIX" : "revere_",    
+    "ES_INDEX_USERS" : "users",
+    "ES_INDEX_TICKERS" : "tickers",
+    "ES_INDEX_INSIGHTS" : "insights",
+    "INS_PUB" :"published",
+    "INS_SEC_CUR":"currency",
+    "INS_SEC_IND":"industry",
+    "INS_SEC_ECO":"economic",
+    "jwt_app_secretkey":"epoojastoremobileapp@ionic_nd",
+    "jwt_app_expire": "1h"
+  }
+}

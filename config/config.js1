@@ -1,0 +1,13 @@
+var config1 = { };
+
+// should end in /
+config1.rootUrl  = process.env.ROOT_URL                  || 'http://localhost:3000/';
+
+config1.facebook = {
+    appId:          process.env.FACEBOOK_APPID          || '130243393813697',
+    appSecret:      process.env.FACEBOOK_APPSECRET      || 'c82696768ae4ad8b63db874cb64eb558',
+    appNamespace:   process.env.FACEBOOK_APPNAMESPACE   || 'nodescrumptious',
+    redirectUri:    process.env.FACEBOOK_REDIRECTURI    ||  config1.rootUrl + 'login/callback'
+};
+
+module.exports = config1;
